@@ -16,7 +16,7 @@ experiment() {
   # run tracing if necessary
   if [ "$2" != "X" ]; then
     # shellcheck disable=SC2024
-    sudo bpftrace Script/"$2".bt >>raw.txt & # being tracing
+    sudo bpftrace Scripts/"$2".bt >>raw.txt & # being tracing
   fi
   # run the jobs and count how many get done
   end=$((SECONDS + increment))
