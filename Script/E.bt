@@ -1,0 +1,11 @@
+tracepoint:rcu:rcu_utilization {
+  printf("rcu_utilization\n");
+}
+
+tracepoint:syscalls:sys_enter_nanosleep {
+  printf("sys_enter_nanosleep\n");
+}
+
+tracepoint:sched:sched_switch {
+  printf("sched_switch\n");
+}
