@@ -20,6 +20,9 @@ def read_file(file):
 def get_data(lines):
     RUNS = 8  # number of runs in each experiment
     numArr = RUNS * 2
+    # process into data points
+    jobs = [lines[i] for i in range(0, len(lines), 2)]
+    events = [lines[i+1] for i in range(0, len(lines), 2)]
     # split into tracing and not tracing runs
     data = [[] for _ in range(numArr)]  # runs and log size
     for counter in range(0, len(lines)):
@@ -33,7 +36,7 @@ def get_data(lines):
     relJobs = [round(100 * (float(allJobs[i]) / totalJobs), 5) for i in range(0, len(allJobs))]
     relEvents = [round(100 * (float(allEvents[i]) / totalEvents), 5) for i in range(0, len(allEvents))]
     # return relative values
-    return relJobs, relEvents, allJobs, allEvents
+    return relJobs, relEvents, allJobs, allEvents, jobs, events
 
 
 def linReg(allEvents, allJobs, type):
@@ -55,10 +58,10 @@ def main(args):
     # read file
     lines = read_file("Logs/log_" + run + ".txt")
     # process data
-    relJobs, relEvents, allJobs, allEvents = get_data(lines)
+    relJobs, relEvents, allJobs, allEvents, jobs, events = get_data(lines)
     # get the regression
-    regA, errA = linReg(np.array(allEvents), np.array(allJobs), "events")
-    regB, errB = linReg(np.array([0, 1, 2, 1, 1, 3, 6, 10]), np.array(allJobs), "jobs")
+    regA, errA = linReg(np.array(events), np.array(jobs), "events")
+    regB, errB = linReg(np.array([0, 1, 2, 1, 1, 3, 6, 10] * 10), np.array(jobs), "probes")
     # write results to file
     with open("Results/result_" + run + ".txt", 'w') as f:
         f.write(f"iterations {args[2]} | time {args[3]} | threads {args[4]} | depth {args[5]} | governor {args[6]}\n")
@@ -76,7 +79,10 @@ def main(args):
         f.write("Probes to Jobs\n")
         f.write(f"{regB}\n")
         f.write(f"{errB}\n")
-
+        f.write("All jobs\n")
+        f.write(f"{jobs}\n")
+        f.write("All events\n")
+        f.write(f"{events}\n")
 
 
 if __name__ == "__main__":
@@ -87,7 +93,7 @@ if __name__ == "__main__":
         main(args)
     else:
         # runs = ["2", "3", "4", "5", "C1", "C2"]
-        runs = ["home_1_ps"]
+        runs = ["aws_1_X", "cloudlab_1_X", "cloudlab_2_X", "home_1_ps", "home_2_per", "home_3_ps"]
         for run in runs:
             args = ["", run, 10, "20", 500, 1500, "powersave"]
             # args = []
