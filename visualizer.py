@@ -15,9 +15,9 @@ def linePlot(run_num):
         numProbes = [0, 1, 2, 1, 1, 3, 6, 10] * 10
         df = pd.DataFrame({
             'Probe Type': ["X", "A", "B", "C", "D", "E", "F", "G"] * 10,  # 10 runs
-            'Probes': numProbes,
-            'Total Events': totalEvents,
-            'Total Jobs': totalJobs,
+            'Number of Tracepoints': numProbes,
+            'Number of Events': totalEvents,
+            'Jobs Completed': totalJobs,
         })
         # plot a scatter plot with regression
         fig, ax1 = plt.subplots(figsize=(10, 10))

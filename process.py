@@ -50,7 +50,7 @@ def linReg(allEvents, allJobs, var):
     reg = LinearRegression()
     reg.fit(x, y)
     # return the results
-    return f"jobs = {reg.coef_[0][0]} * {var} + {reg.intercept_[0]}", f"error = {reg.score(x, y)}"
+    return f"jobs = {reg.coef_[0][0]} * {var} + {reg.intercept_[0]}", f"r^2 = {reg.score(x, y)}"
 
 
 def main(args):
