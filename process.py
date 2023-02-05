@@ -22,7 +22,7 @@ def get_data(lines):
     numArr = RUNS * 2
     # process into data points
     jobs = [lines[i] for i in range(0, len(lines), 2)]
-    events = [lines[i+1] for i in range(0, len(lines), 2)]
+    events = [lines[i + 1] for i in range(0, len(lines), 2)]
     # split into tracing and not tracing runs
     data = [[] for _ in range(numArr)]  # runs and log size
     for counter in range(0, len(lines)):
@@ -39,7 +39,7 @@ def get_data(lines):
     return relJobs, relEvents, allJobs, allEvents, jobs, events
 
 
-def linReg(allEvents, allJobs, type):
+def linReg(allEvents, allJobs, var):
     # get the data
     x = allEvents  # number of events
     y = allJobs  # number of jobs
@@ -50,7 +50,7 @@ def linReg(allEvents, allJobs, type):
     reg = LinearRegression()
     reg.fit(x, y)
     # return the results
-    return f"jobs = {reg.coef_[0][0]} * {type} + {reg.intercept_[0]}", f"error = {reg.score(x, y)}"
+    return f"jobs = {reg.coef_[0][0]} * {var} + {reg.intercept_[0]}", f"error = {reg.score(x, y)}"
 
 
 def main(args):

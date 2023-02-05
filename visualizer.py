@@ -21,14 +21,14 @@ def linePlot(run_num):
         })
         # plot a scatter plot with regression
         fig, ax1 = plt.subplots(figsize=(10, 10))
-        sns.scatterplot(x='Total Events', y='Total Jobs', data=df, ax=ax1, hue='Probe Type')
+        sns.scatterplot(x='Number of Events', y='Jobs Completed', data=df, ax=ax1, hue='Probe Type')
         sns.despine(fig)
         fig.savefig(f"Figures/{run_num}_events.png")
         # close the plot
         plt.close()
         # plot probes to jobs
         fig, ax1 = plt.subplots(figsize=(10, 10))
-        sns.scatterplot(x='Probes', y='Total Jobs', data=df, ax=ax1, hue='Probe Type')
+        sns.scatterplot(x='Number of Tracepoints', y='Jobs Completed', data=df, ax=ax1, hue='Probe Type')
         sns.despine(fig)
         fig.savefig(f"Figures/{run_num}_probes.png")
 
