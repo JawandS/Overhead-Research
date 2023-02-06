@@ -61,8 +61,8 @@ def main(args):
     relJobs, relEvents, allJobs, allEvents, jobs, events = get_data(lines)
     # get the regression
     regA, errA = linReg(np.array(events), np.array(jobs), "events")
-    regB, errB = linReg(np.array([0, 1, 2, 1, 1, 3, 6, 10] * 10), np.array(jobs), "probes")
-    # regB, errB = linReg(np.array([0, 1, 2, 3, 4] * 10), np.array(jobs), "probes")
+    # regB, errB = linReg(np.array([0, 1, 2, 1, 1, 3, 6, 10] * 10), np.array(jobs), "probes")
+    regB, errB = linReg(np.array([0, 1, 2, 3, 4] * 10), np.array(jobs), "probes")
     # write results to file
     with open("Results/result_" + run + ".txt", 'w') as f:
         f.write(f"iterations {args[2]} | time {args[3]} | threads {args[4]} | depth {args[5]} | governor {args[6]}\n")
@@ -95,7 +95,7 @@ if __name__ == "__main__":
     else:
         # runs = ["2", "3", "4", "5", "C1", "C2"]
         # runs = ["aws_1_X", "cloudlab_1_X", "cloudlab_2_X", "home_1_ps", "home_2_per", "home_3_ps"]
-        runs = ["home_csVariant_1_ps"]
+        runs = ["home_csVariant_2_per"]
         for run in runs:
             args = ["", run, 10, "20", 500, 1500, "powersave"]
             # args = []

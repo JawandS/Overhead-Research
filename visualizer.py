@@ -43,6 +43,6 @@ if __name__ == "__main__":
         linePlot(run_num)
     else:
         # runs = ["aws_1_X", "cloudlab_1_X", "cloudlab_2_X", "home_1_ps", "home_2_per", "home_3_ps"]
-        runs = ["home_csVariant_1_ps"]
+        runs = ["home_csVariant_2_per"]
         for run_num in runs:
             linePlot(run_num)
