@@ -1,0 +1,100 @@
+271
+0 raw.txt
+195
+8265265 raw.txt
+197
+15624735 raw.txt
+179
+22297589 raw.txt
+142
+26605577 raw.txt
+272
+0 raw.txt
+191
+8463980 raw.txt
+199
+15737275 raw.txt
+174
+22409849 raw.txt
+145
+26610646 raw.txt
+269
+0 raw.txt
+190
+8267048 raw.txt
+198
+15812320 raw.txt
+171
+22482647 raw.txt
+140
+26558075 raw.txt
+270
+0 raw.txt
+194
+8462214 raw.txt
+199
+15720087 raw.txt
+171
+22387408 raw.txt
+142
+26711737 raw.txt
+271
+0 raw.txt
+192
+8398208 raw.txt
+194
+15617976 raw.txt
+174
+22390900 raw.txt
+142
+26675506 raw.txt
+269
+0 raw.txt
+189
+8493522 raw.txt
+197
+15781602 raw.txt
+175
+22230923 raw.txt
+141
+26722968 raw.txt
+271
+0 raw.txt
+197
+8217869 raw.txt
+199
+15823893 raw.txt
+170
+22108222 raw.txt
+146
+26768509 raw.txt
+269
+0 raw.txt
+187
+8446822 raw.txt
+191
+15776463 raw.txt
+165
+22508611 raw.txt
+141
+26588871 raw.txt
+271
+0 raw.txt
+191
+8382471 raw.txt
+196
+15842807 raw.txt
+166
+22385533 raw.txt
+142
+26586324 raw.txt
+274
+0 raw.txt
+189
+8429224 raw.txt
+194
+15748687 raw.txt
+177
+22229388 raw.txt
+145
+26753795 raw.txt
