@@ -13,8 +13,11 @@ def linePlot(run_num):
         totalJobs = eval(lines[16])
         totalEvents = eval(lines[18])
         numProbes = [0, 1, 2, 1, 1, 3, 6, 10] * 10
+        # numProbes = [0, 1, 2, 3, 4] * 10
+        probeType = ["X", "A", "B", "C", "D", "E", "F", "G"] * 10
+        # probeType = ["X", 1, 2, 3, 4] * 10
         df = pd.DataFrame({
-            'Probe Type': ["X", "A", "B", "C", "D", "E", "F", "G"] * 10,  # 10 runs
+            'Probe Type': probeType,  # 10 runs
             'Number of Tracepoints': numProbes,
             'Number of Events': totalEvents,
             'Jobs Completed': totalJobs,
@@ -39,6 +42,7 @@ if __name__ == "__main__":
         run_num = args[1]
         linePlot(run_num)
     else:
-        runs = ["aws_1_X", "cloudlab_1_X", "cloudlab_2_X", "home_1_ps", "home_2_per", "home_3_ps"]
+        # runs = ["aws_1_X", "cloudlab_1_X", "cloudlab_2_X", "home_1_ps", "home_2_per", "home_3_ps"]
+        runs = ["home_csVariant_1_ps"]
         for run_num in runs:
             linePlot(run_num)
