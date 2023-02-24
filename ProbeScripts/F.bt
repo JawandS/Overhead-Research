@@ -1,0 +1,3 @@
+tracepoint:cpuhp:cpuhp_enter {
+  printf("cpuhp_enter\n");
+}

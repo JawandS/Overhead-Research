@@ -1,0 +1,3 @@
+tracepoint:timer:timer_start {
+  printf("timer_start\n");
+}

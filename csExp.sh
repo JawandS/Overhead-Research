@@ -27,6 +27,24 @@ experiment() {
     if [ "$2" == "4" ]; then
       sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & # begin tracing
     fi
+    if [ "$2" == "5" ]; then
+      sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & # begin tracing
+    fi
+    if [ "$2" == "6" ]; then
+      sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & # begin tracing
+    fi
+    if [ "$2" == "7" ]; then
+      sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & # begin tracing
+    fi
+    if [ "$2" == "8" ]; then
+      sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & # begin tracing
+    fi
+    if [ "$2" == "9" ]; then
+      sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & # begin tracing
+    fi
+    if [ "$2" == "10" ]; then
+      sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & sudo bpftrace Scripts/A.bt >>raw.txt & # begin tracing
+    fi
   fi
   # run the jobs and count how many get done
   end=$((SECONDS + increment))
