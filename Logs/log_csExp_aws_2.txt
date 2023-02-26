@@ -1,0 +1,220 @@
+93
+0 raw.txt
+20
+529862 raw.txt
+23
+745286 raw.txt
+19
+984625 raw.txt
+15
+1166021 raw.txt
+15
+1527678 raw.txt
+13
+1696543 raw.txt
+12
+1922364 raw.txt
+10
+1871023 raw.txt
+8
+1779771 raw.txt
+9
+2224271 raw.txt
+93
+0 raw.txt
+19
+511990 raw.txt
+24
+721690 raw.txt
+19
+984717 raw.txt
+15
+1142775 raw.txt
+13
+1399551 raw.txt
+13
+1640974 raw.txt
+11
+1706544 raw.txt
+10
+1829554 raw.txt
+8
+1743915 raw.txt
+8
+2005154 raw.txt
+94
+0 raw.txt
+20
+528017 raw.txt
+23
+726876 raw.txt
+19
+1001472 raw.txt
+16
+1212682 raw.txt
+15
+1392556 raw.txt
+14
+1715835 raw.txt
+11
+1724848 raw.txt
+11
+2029950 raw.txt
+9
+1984935 raw.txt
+8
+1986574 raw.txt
+93
+0 raw.txt
+19
+547122 raw.txt
+24
+741243 raw.txt
+21
+1014017 raw.txt
+17
+1208022 raw.txt
+14
+1477533 raw.txt
+12
+1547945 raw.txt
+11
+1778233 raw.txt
+9
+1649202 raw.txt
+9
+1922822 raw.txt
+8
+2068725 raw.txt
+94
+0 raw.txt
+20
+542009 raw.txt
+22
+698742 raw.txt
+19
+985516 raw.txt
+16
+1185960 raw.txt
+14
+1488135 raw.txt
+12
+1504492 raw.txt
+11
+1759231 raw.txt
+10
+2012563 raw.txt
+9
+1953728 raw.txt
+8
+1945642 raw.txt
+93
+0 raw.txt
+20
+536035 raw.txt
+25
+729480 raw.txt
+17
+921346 raw.txt
+16
+1239173 raw.txt
+13
+1355238 raw.txt
+12
+1540582 raw.txt
+11
+1724742 raw.txt
+10
+1904987 raw.txt
+8
+1772924 raw.txt
+8
+1955986 raw.txt
+93
+0 raw.txt
+20
+517427 raw.txt
+24
+755900 raw.txt
+17
+939000 raw.txt
+15
+1181442 raw.txt
+13
+1357095 raw.txt
+13
+1654164 raw.txt
+11
+1735373 raw.txt
+9
+1761597 raw.txt
+9
+1939367 raw.txt
+9
+2333537 raw.txt
+93
+0 raw.txt
+21
+511488 raw.txt
+24
+736498 raw.txt
+21
+1029551 raw.txt
+15
+1147492 raw.txt
+14
+1414997 raw.txt
+12
+1551812 raw.txt
+11
+1613424 raw.txt
+10
+1848763 raw.txt
+9
+1988585 raw.txt
+9
+2269319 raw.txt
+93
+0 raw.txt
+20
+517260 raw.txt
+25
+739891 raw.txt
+19
+974753 raw.txt
+15
+1179251 raw.txt
+15
+1528714 raw.txt
+13
+1616400 raw.txt
+11
+1751771 raw.txt
+11
+2028804 raw.txt
+8
+1730980 raw.txt
+8
+2009812 raw.txt
+92
+0 raw.txt
+17
+549026 raw.txt
+22
+722447 raw.txt
+19
+1002956 raw.txt
+17
+1227059 raw.txt
+12
+1275349 raw.txt
+12
+1538207 raw.txt
+10
+1620638 raw.txt
+8
+1615138 raw.txt
+9
+1935414 raw.txt
+7
+1737368 raw.txt
