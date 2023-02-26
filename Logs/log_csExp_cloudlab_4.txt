@@ -1,0 +1,220 @@
+101
+0 raw.txt
+99
+7119126 raw.txt
+86
+7685214 raw.txt
+85
+7855856 raw.txt
+87
+8520963 raw.txt
+83
+7381867 raw.txt
+87
+7561000 raw.txt
+84
+7103481 raw.txt
+86
+7024246 raw.txt
+83
+6872282 raw.txt
+82
+6662816 raw.txt
+103
+0 raw.txt
+97
+7116745 raw.txt
+88
+7367488 raw.txt
+87
+8419225 raw.txt
+86
+6907113 raw.txt
+86
+7115281 raw.txt
+85
+7013527 raw.txt
+85
+7158924 raw.txt
+84
+7252924 raw.txt
+83
+6702707 raw.txt
+83
+6832203 raw.txt
+103
+0 raw.txt
+93
+6561174 raw.txt
+86
+7394955 raw.txt
+84
+9033743 raw.txt
+88
+7770634 raw.txt
+87
+8209390 raw.txt
+85
+7400947 raw.txt
+80
+6801555 raw.txt
+83
+6966258 raw.txt
+84
+7125792 raw.txt
+85
+6850658 raw.txt
+100
+0 raw.txt
+95
+6808123 raw.txt
+87
+7568405 raw.txt
+88
+7953445 raw.txt
+88
+7771846 raw.txt
+86
+7211301 raw.txt
+85
+7299555 raw.txt
+88
+7329503 raw.txt
+86
+7005299 raw.txt
+83
+7063175 raw.txt
+82
+6738615 raw.txt
+101
+0 raw.txt
+97
+6952535 raw.txt
+86
+7899196 raw.txt
+88
+9183203 raw.txt
+86
+7647752 raw.txt
+86
+8304372 raw.txt
+86
+7093457 raw.txt
+85
+7099277 raw.txt
+84
+6951918 raw.txt
+84
+6851785 raw.txt
+85
+6678630 raw.txt
+99
+0 raw.txt
+94
+6739234 raw.txt
+88
+7256353 raw.txt
+86
+7727092 raw.txt
+87
+7320905 raw.txt
+84
+7680774 raw.txt
+85
+7537699 raw.txt
+84
+7191155 raw.txt
+86
+7111125 raw.txt
+84
+6788563 raw.txt
+81
+6549679 raw.txt
+100
+0 raw.txt
+95
+6915019 raw.txt
+87
+8511721 raw.txt
+86
+8256502 raw.txt
+89
+8325888 raw.txt
+85
+7310935 raw.txt
+86
+7034573 raw.txt
+85
+7464604 raw.txt
+84
+7177860 raw.txt
+83
+6897051 raw.txt
+83
+6854840 raw.txt
+104
+0 raw.txt
+92
+6739155 raw.txt
+89
+7683160 raw.txt
+86
+7981632 raw.txt
+88
+8826080 raw.txt
+85
+7659689 raw.txt
+86
+7458254 raw.txt
+83
+6983087 raw.txt
+84
+6695755 raw.txt
+83
+6980011 raw.txt
+83
+6772109 raw.txt
+98
+0 raw.txt
+96
+6868999 raw.txt
+88
+7703208 raw.txt
+86
+8106299 raw.txt
+85
+8236477 raw.txt
+86
+7398978 raw.txt
+85
+6995485 raw.txt
+85
+7280708 raw.txt
+84
+6935182 raw.txt
+82
+7090788 raw.txt
+83
+6751406 raw.txt
+97
+0 raw.txt
+93
+6920920 raw.txt
+87
+7608768 raw.txt
+86
+7150691 raw.txt
+84
+8671216 raw.txt
+86
+7966270 raw.txt
+83
+7221505 raw.txt
+84
+7066735 raw.txt
+81
+6761058 raw.txt
+83
+6685677 raw.txt
+85
+6794649 raw.txt
