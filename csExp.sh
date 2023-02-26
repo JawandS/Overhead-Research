@@ -79,7 +79,7 @@ for _ in {1..10}; do # number of iterations
   experiment "$1" 4 # 4 context switch
 done
 python3 process.py "$1" $iterations $increment $threads $depth "$2" # run number, iterations, time, threads, depth, governor
-python3 visualizer.py "$1" # run number
+#python3 visualizer.py "$1" # run number
 git pull
 git add .
 git commit -m "add and process overhead experiment $1"
