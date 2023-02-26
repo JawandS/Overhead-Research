@@ -77,6 +77,12 @@ for _ in {1..10}; do # number of iterations
   experiment "$1" 2 # 2 context switch
   experiment "$1" 3 # 3 context switch
   experiment "$1" 4 # 4 context switch
+  experiment "$1" 5 # 5 context switch
+  experiment "$1" 6 # 6 context switch
+  experiment "$1" 7 # 7 context switch
+  experiment "$1" 8 # 8 context switch
+  experiment "$1" 9 # 9 context switch
+  experiment "$1" 10 # 10 context switch
 done
 python3 process.py "$1" $iterations $increment $threads $depth "$2" # run number, iterations, time, threads, depth, governor
 #python3 visualizer.py "$1" # run number
