@@ -18,19 +18,14 @@ def read_file(file):
 
 
 def get_data(lines):
-    RUNS = 8  # number of runs in each experiment
-    numArr = RUNS * 2
-    # process into data points
+    numVars = 11  # number of different independent variables
+    runs = 10  # number of runs in each experiment
     jobs = [lines[i] for i in range(0, len(lines), 2)]
     events = [lines[i + 1] for i in range(0, len(lines), 2)]
-    # split into tracing and not tracing runs
-    data = [[] for _ in range(numArr)]  # runs and log size
-    for counter in range(0, len(lines)):
-        data[counter % numArr].append(lines[counter])
     # get totals
-    allJobs = [sum(data[i]) for i in range(0, numArr, 2)]
+    allJobs = [sum(jobs[i: numVars * runs: numVars]) for i in range(numVars)]
     totalJobs = sum(allJobs)
-    allEvents = [sum(data[i]) for i in range(1, numArr, 2)]
+    allEvents = [sum(events[i: numVars * runs: numVars]) for i in range(numVars)]
     totalEvents = sum(allEvents)
     # process relative amounts
     relJobs = [round(100 * (float(allJobs[i]) / totalJobs), 5) for i in range(0, len(allJobs))]
@@ -39,7 +34,7 @@ def get_data(lines):
     return relJobs, relEvents, allJobs, allEvents, jobs, events
 
 
-def linReg(allEvents, allJobs, var):
+def linReg(allEvents, allJobs, xVar, yVar):
     # get the data
     x = allEvents  # number of events
     y = allJobs  # number of jobs
@@ -50,7 +45,7 @@ def linReg(allEvents, allJobs, var):
     reg = LinearRegression()
     reg.fit(x, y)
     # return the results
-    return f"jobs = {reg.coef_[0][0]} * {var} + {reg.intercept_[0]}", f"r^2 = {reg.score(x, y)}"
+    return f"{yVar} = {reg.coef_[0][0]} * {xVar} + {reg.intercept_[0]}", f"r^2 = {reg.score(x, y)}"
 
 
 def main(args):
@@ -60,9 +55,10 @@ def main(args):
     # process data
     relJobs, relEvents, allJobs, allEvents, jobs, events = get_data(lines)
     # get the regression
-    regA, errA = linReg(np.array(events), np.array(jobs), "events")
+    regA, errA = linReg(np.array(events), np.array(jobs), "events", "jobs")
     # regB, errB = linReg(np.array([0, 1, 2, 1, 1, 3, 6, 10] * 10), np.array(jobs), "probes")
-    regB, errB = linReg(np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] * 10), np.array(jobs), "probes")
+    regB, errB = linReg(np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] * 10), np.array(jobs), "probes", "jobs")
+    regC, errC = linReg(np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] * 10), np.array(events), "probes", "events")
     # write results to file
     with open("Results/result_" + run + ".txt", 'w') as f:
         f.write(f"iterations {args[2]} | time {args[3]} | threads {args[4]} | depth {args[5]} | governor {args[6]}\n")
@@ -80,6 +76,9 @@ def main(args):
         f.write("Probes to Jobs\n")
         f.write(f"{regB}\n")
         f.write(f"{errB}\n")
+        f.write("Probes to Events\n")
+        f.write(f"{regC}\n")
+        f.write(f"{errC}\n")
         f.write("All jobs\n")
         f.write(f"{jobs}\n")
         f.write("All events\n")
@@ -96,7 +95,8 @@ if __name__ == "__main__":
         # runs = ["2", "3", "4", "5", "C1", "C2"]
         # runs = ["aws_1_X", "cloudlab_1_X", "cloudlab_2_X", "home_1_ps", "home_2_per", "home_3_ps"]
         # runs = ["csExp_home_2_per", "csExp_cloudlab_2", "csExp_aws_2"]
-        runs = ["csExp_home_3_ps", "csExp_cloudlab_3"]
+        # runs = ["csExp_aws_1"]
+        runs = ["csExp_aws_1", "csExp_cloudlab_1", "csExp_home_1_ps", "csExp_aws_2", "csExp_cloudlab_2", "csExp_home_2_per", "csExp_aws_3", "csExp_cloudlab_3", "csExp_home_3_ps", "csExp_aws_4", "csExp_cloudlab_4", "csExp_home_4_per"]
         for run in runs:
             args = ["", run, 10, "20", 500, 1500, "powersave"]
             # args = []
