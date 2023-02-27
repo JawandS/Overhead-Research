@@ -29,9 +29,9 @@ experiment() {
   # end tracing
   killall -q bpftrace
   # update logs
-  echo $counter >>Logs/log_"$1".txt # add jobs done to log
+  echo $counter >>Logs/probesExp/log_"$1".txt # add jobs done to log
   outputSize=$(wc -l raw.txt)
-  echo "$outputSize" >>Logs/log_"$1".txt                    # add output size to log
+  echo "$outputSize" >>Logs/probesExp/log_"$1".txt                    # add output size to log
   echo "Completed: $counter for $2 with $outputSize events" # output to console
 }
 # run experiment
@@ -44,17 +44,17 @@ for _ in {1..10}; do # number of iterations
   done
   # experiment phase
   iterationCounter=$((iterationCounter + 1)) && printf "\t---------Run %s---------\n" "$iterationCounter"
-  experiment "$1" X # base run
-  experiment "$1" A # context switch
-  experiment "$1" B # context switch + rcu
-  experiment "$1" C # rcu
-  experiment "$1" D # hello world
-  experiment "$1" E # rcu + enter sleep + context switch
-  experiment "$1" F # 6 probes
-  experiment "$1" G # 10 probes
+  experiment "$1" X # X
+  experiment "$1" A # rcu:rcu_utilization
+  experiment "$1" B # syscalls:sys_enter_nanosleep
+  experiment "$1" C # sched:sched_switch
+  experiment "$1" D # sched:sched_wakeup
+  experiment "$1" E # timer:time_start
+  experiment "$1" F # cpu:cpuhp_enter
+  experiment "$1" G # syscalls:sys_enter_getcpu
 done
-python3 process.py "$1" $iterations $increment $threads $depth "$2" # run number, iterations, time, threads, depth, governor
-python3 visualizer.py "$1" # run number
+python3 processProbes.py "$1" $iterations $increment $threads $depth "$2" # run number, iterations, time, threads, depth, governor
+#python3 visualizer.py "$1" # run number
 git pull
 git add .
 git commit -m "add and process overhead experiment $1"
