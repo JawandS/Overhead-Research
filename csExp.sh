@@ -57,9 +57,9 @@ experiment() {
   # end tracing
   killall -q bpftrace
   # update logs
-  echo $counter >>Logs/log_"$1".txt # add jobs done to log
+  echo $counter >>Logs/csExp/log_"$1".txt # add jobs done to log
   outputSize=$(wc -l raw.txt)
-  echo "$outputSize" >>Logs/log_"$1".txt                    # add output size to log
+  echo "$outputSize" >>Logs/csExp/log_"$1".txt                    # add output size to log
   echo "Completed: $counter for $2 with $outputSize events" # output to console
 }
 # run experiment
