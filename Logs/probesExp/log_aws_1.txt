@@ -1,0 +1,160 @@
+94
+0 raw.txt
+34
+767963 raw.txt
+91
+1 raw.txt
+19
+542835 raw.txt
+76
+223033 raw.txt
+91
+4953 raw.txt
+92
+1 raw.txt
+92
+1 raw.txt
+91
+0 raw.txt
+32
+799659 raw.txt
+91
+2 raw.txt
+17
+552730 raw.txt
+78
+236783 raw.txt
+91
+4919 raw.txt
+92
+1 raw.txt
+91
+1 raw.txt
+93
+0 raw.txt
+31
+741837 raw.txt
+92
+68 raw.txt
+19
+562215 raw.txt
+76
+223864 raw.txt
+91
+4958 raw.txt
+91
+1 raw.txt
+93
+1 raw.txt
+94
+0 raw.txt
+31
+807983 raw.txt
+92
+10 raw.txt
+18
+556215 raw.txt
+76
+229673 raw.txt
+91
+4905 raw.txt
+93
+1 raw.txt
+93
+1 raw.txt
+92
+0 raw.txt
+31
+796685 raw.txt
+93
+1 raw.txt
+18
+561923 raw.txt
+78
+240317 raw.txt
+93
+4923 raw.txt
+92
+1 raw.txt
+94
+1 raw.txt
+93
+0 raw.txt
+32
+775831 raw.txt
+93
+3 raw.txt
+16
+577078 raw.txt
+79
+237749 raw.txt
+92
+4982 raw.txt
+94
+1 raw.txt
+91
+1 raw.txt
+92
+0 raw.txt
+33
+803362 raw.txt
+90
+1 raw.txt
+18
+563746 raw.txt
+78
+223838 raw.txt
+93
+4907 raw.txt
+93
+1 raw.txt
+92
+1 raw.txt
+93
+0 raw.txt
+30
+797237 raw.txt
+93
+1 raw.txt
+19
+580133 raw.txt
+77
+233032 raw.txt
+93
+4932 raw.txt
+93
+1 raw.txt
+86
+1 raw.txt
+92
+0 raw.txt
+32
+774439 raw.txt
+92
+71 raw.txt
+17
+580178 raw.txt
+77
+229525 raw.txt
+91
+4977 raw.txt
+92
+1 raw.txt
+91
+1 raw.txt
+93
+0 raw.txt
+31
+814882 raw.txt
+89
+13 raw.txt
+17
+595497 raw.txt
+77
+230323 raw.txt
+89
+4906 raw.txt
+93
+1 raw.txt
+93
+1 raw.txt
