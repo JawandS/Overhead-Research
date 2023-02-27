@@ -91,10 +91,6 @@ if __name__ == "__main__":
         run = args[1]
         main(args)
     else:
-        # runs = ["2", "3", "4", "5", "C1", "C2"]
-        # runs = ["aws_1_X", "cloudlab_1_X", "cloudlab_2_X", "home_1_ps", "home_2_per", "home_3_ps"]
-        # runs = ["csExp_home_2_per", "csExp_cloudlab_2", "csExp_aws_2"]
-        # runs = ["csExp_aws_1"]
         runs = ["csExp_aws_1", "csExp_cloudlab_1", "csExp_home_1_ps", "csExp_aws_2", "csExp_cloudlab_2",
                 "csExp_home_2_per", "csExp_aws_3", "csExp_cloudlab_3", "csExp_home_3_ps", "csExp_aws_4",
                 "csExp_cloudlab_4", "csExp_home_4_per"]

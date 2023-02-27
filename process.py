@@ -51,16 +51,15 @@ def linReg(allEvents, allJobs, xVar, yVar):
 def main(args):
     run = args[1]
     # read file
-    lines = read_file("Logs/log_" + run + ".txt")
+    lines = read_file("Logs/csExp/log_" + run + ".txt")
     # process data
     relJobs, relEvents, allJobs, allEvents, jobs, events = get_data(lines)
     # get the regression
     regA, errA = linReg(np.array(events), np.array(jobs), "events", "jobs")
-    # regB, errB = linReg(np.array([0, 1, 2, 1, 1, 3, 6, 10] * 10), np.array(jobs), "probes")
     regB, errB = linReg(np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] * 10), np.array(jobs), "probes", "jobs")
     regC, errC = linReg(np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] * 10), np.array(events), "probes", "events")
     # write results to file
-    with open("Results/result_" + run + ".txt", 'w') as f:
+    with open("Results/csExp/result_" + run + ".txt", 'w') as f:
         f.write(f"iterations {args[2]} | time {args[3]} | threads {args[4]} | depth {args[5]} | governor {args[6]}\n")
         f.write("Relative amounts of jobs\n")
         f.write(f"{relJobs}\n")
@@ -92,10 +91,6 @@ if __name__ == "__main__":
         run = args[1]
         main(args)
     else:
-        # runs = ["2", "3", "4", "5", "C1", "C2"]
-        # runs = ["aws_1_X", "cloudlab_1_X", "cloudlab_2_X", "home_1_ps", "home_2_per", "home_3_ps"]
-        # runs = ["csExp_home_2_per", "csExp_cloudlab_2", "csExp_aws_2"]
-        # runs = ["csExp_aws_1"]
         runs = ["csExp_aws_1", "csExp_cloudlab_1", "csExp_home_1_ps", "csExp_aws_2", "csExp_cloudlab_2", "csExp_home_2_per", "csExp_aws_3", "csExp_cloudlab_3", "csExp_home_3_ps", "csExp_aws_4", "csExp_cloudlab_4", "csExp_home_4_per"]
         for run in runs:
             args = ["", run, 10, "20", 500, 1500, "powersave"]
