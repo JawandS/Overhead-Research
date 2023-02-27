@@ -18,7 +18,7 @@ def read_file(file):
 
 
 def get_data(lines):
-    numVars = 11  # number of different independent variables
+    numVars = 8  # number of different independent variables
     runs = 10  # number of runs in each experiment
     jobs = [lines[i] for i in range(0, len(lines), 2)]
     events = [lines[i + 1] for i in range(0, len(lines), 2)]
@@ -91,9 +91,7 @@ if __name__ == "__main__":
         run = args[1]
         main(args)
     else:
-        runs = ["csExp_aws_1", "csExp_cloudlab_1", "csExp_home_1_ps", "csExp_aws_2", "csExp_cloudlab_2",
-                "csExp_home_2_per", "csExp_aws_3", "csExp_cloudlab_3", "csExp_home_3_ps", "csExp_aws_4",
-                "csExp_cloudlab_4", "csExp_home_4_per"]
+        runs = ["aws_1", "cloudlab_1", "home_1_ps"]
         for run in runs:
             args = ["", run, 10, "20", 500, 1500, "powersave"]
             # args = []
