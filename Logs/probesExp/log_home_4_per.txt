@@ -1,0 +1,160 @@
+257
+0 raw.txt
+256
+26037681 raw.txt
+240
+1 raw.txt
+175
+9819001 raw.txt
+246
+537679 raw.txt
+249
+3444 raw.txt
+257
+1 raw.txt
+246
+1 raw.txt
+251
+0 raw.txt
+252
+26233715 raw.txt
+246
+1 raw.txt
+178
+9832717 raw.txt
+248
+543473 raw.txt
+253
+3455 raw.txt
+253
+1 raw.txt
+243
+1 raw.txt
+250
+0 raw.txt
+256
+26284573 raw.txt
+243
+35 raw.txt
+174
+10012520 raw.txt
+250
+537685 raw.txt
+246
+3476 raw.txt
+249
+1 raw.txt
+244
+1 raw.txt
+254
+0 raw.txt
+253
+26270154 raw.txt
+240
+37 raw.txt
+169
+9881745 raw.txt
+246
+545121 raw.txt
+248
+3460 raw.txt
+260
+1 raw.txt
+245
+1 raw.txt
+254
+0 raw.txt
+253
+25881881 raw.txt
+238
+30 raw.txt
+169
+9902236 raw.txt
+246
+544994 raw.txt
+256
+3432 raw.txt
+257
+1 raw.txt
+241
+1 raw.txt
+252
+0 raw.txt
+253
+26373160 raw.txt
+243
+1 raw.txt
+171
+9989453 raw.txt
+251
+528972 raw.txt
+252
+3452 raw.txt
+252
+1 raw.txt
+240
+1 raw.txt
+251
+0 raw.txt
+254
+26407453 raw.txt
+250
+1 raw.txt
+172
+9949175 raw.txt
+245
+551357 raw.txt
+253
+3447 raw.txt
+254
+1 raw.txt
+244
+1 raw.txt
+254
+0 raw.txt
+254
+26337128 raw.txt
+239
+3 raw.txt
+171
+10059516 raw.txt
+246
+544237 raw.txt
+257
+3449 raw.txt
+254
+1 raw.txt
+250
+1 raw.txt
+253
+0 raw.txt
+252
+26084818 raw.txt
+247
+1 raw.txt
+171
+10100041 raw.txt
+249
+531361 raw.txt
+252
+3444 raw.txt
+260
+1 raw.txt
+244
+1 raw.txt
+257
+0 raw.txt
+253
+26186349 raw.txt
+240
+1 raw.txt
+176
+9928326 raw.txt
+245
+551016 raw.txt
+247
+3459 raw.txt
+252
+1 raw.txt
+244
+1 raw.txt
