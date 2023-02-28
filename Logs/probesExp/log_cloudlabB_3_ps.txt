@@ -1,0 +1,160 @@
+63
+0 raw.txt
+65
+9187116 raw.txt
+60
+1 raw.txt
+61
+3740908 raw.txt
+56
+389039 raw.txt
+57
+3401 raw.txt
+59
+1 raw.txt
+59
+1 raw.txt
+61
+0 raw.txt
+67
+9207507 raw.txt
+59
+1 raw.txt
+61
+3929860 raw.txt
+59
+390775 raw.txt
+58
+3398 raw.txt
+59
+1 raw.txt
+61
+1 raw.txt
+59
+0 raw.txt
+67
+9135545 raw.txt
+57
+1 raw.txt
+58
+3858069 raw.txt
+57
+428549 raw.txt
+57
+3303 raw.txt
+62
+1 raw.txt
+60
+1 raw.txt
+61
+0 raw.txt
+68
+8540932 raw.txt
+62
+1 raw.txt
+58
+3740122 raw.txt
+57
+384168 raw.txt
+60
+3446 raw.txt
+58
+1 raw.txt
+61
+1 raw.txt
+60
+0 raw.txt
+68
+9146996 raw.txt
+63
+1 raw.txt
+59
+3826226 raw.txt
+58
+399521 raw.txt
+59
+3421 raw.txt
+60
+1 raw.txt
+62
+1 raw.txt
+62
+0 raw.txt
+65
+9072984 raw.txt
+58
+1 raw.txt
+57
+3760030 raw.txt
+58
+400099 raw.txt
+58
+3407 raw.txt
+54
+1 raw.txt
+57
+1 raw.txt
+61
+0 raw.txt
+66
+9307789 raw.txt
+60
+1 raw.txt
+59
+3826613 raw.txt
+57
+397386 raw.txt
+59
+3337 raw.txt
+60
+1 raw.txt
+64
+1 raw.txt
+62
+0 raw.txt
+64
+9145415 raw.txt
+61
+1 raw.txt
+61
+3902150 raw.txt
+59
+393693 raw.txt
+61
+3421 raw.txt
+61
+1 raw.txt
+59
+1 raw.txt
+59
+0 raw.txt
+67
+8857391 raw.txt
+61
+1 raw.txt
+61
+3685768 raw.txt
+60
+412830 raw.txt
+59
+3377 raw.txt
+61
+1 raw.txt
+58
+1 raw.txt
+64
+0 raw.txt
+66
+9052422 raw.txt
+64
+1 raw.txt
+60
+3834073 raw.txt
+57
+393712 raw.txt
+59
+3384 raw.txt
+62
+1 raw.txt
+60
+1 raw.txt
