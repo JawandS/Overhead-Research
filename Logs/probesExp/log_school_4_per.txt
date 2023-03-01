@@ -1,0 +1,160 @@
+296
+0 raw.txt
+294
+33045250 raw.txt
+301
+1 raw.txt
+303
+12735337 raw.txt
+297
+800714 raw.txt
+297
+3389 raw.txt
+294
+1 raw.txt
+302
+1 raw.txt
+299
+0 raw.txt
+305
+32628623 raw.txt
+296
+1 raw.txt
+299
+12791843 raw.txt
+290
+813006 raw.txt
+299
+3331 raw.txt
+293
+1 raw.txt
+297
+1 raw.txt
+290
+0 raw.txt
+296
+31407527 raw.txt
+294
+1 raw.txt
+295
+12804577 raw.txt
+296
+806056 raw.txt
+299
+3300 raw.txt
+293
+1 raw.txt
+297
+1 raw.txt
+297
+0 raw.txt
+291
+33095902 raw.txt
+292
+1 raw.txt
+294
+12738009 raw.txt
+299
+793636 raw.txt
+295
+3310 raw.txt
+293
+1 raw.txt
+299
+1 raw.txt
+295
+0 raw.txt
+297
+32997864 raw.txt
+298
+1 raw.txt
+299
+12779635 raw.txt
+290
+814396 raw.txt
+300
+3362 raw.txt
+296
+1 raw.txt
+300
+1 raw.txt
+295
+0 raw.txt
+298
+31538993 raw.txt
+298
+1 raw.txt
+299
+12771940 raw.txt
+293
+812788 raw.txt
+295
+3330 raw.txt
+297
+1 raw.txt
+308
+1 raw.txt
+294
+0 raw.txt
+294
+32870948 raw.txt
+295
+2 raw.txt
+296
+12752886 raw.txt
+300
+793125 raw.txt
+297
+3285 raw.txt
+296
+1 raw.txt
+300
+1 raw.txt
+296
+0 raw.txt
+294
+32959646 raw.txt
+304
+1 raw.txt
+296
+12843340 raw.txt
+293
+808654 raw.txt
+299
+3440 raw.txt
+295
+1 raw.txt
+300
+1 raw.txt
+295
+0 raw.txt
+296
+33069830 raw.txt
+291
+1 raw.txt
+298
+12766354 raw.txt
+297
+792598 raw.txt
+301
+3345 raw.txt
+298
+1 raw.txt
+301
+1 raw.txt
+297
+0 raw.txt
+289
+33075453 raw.txt
+301
+5 raw.txt
+299
+12701614 raw.txt
+296
+803173 raw.txt
+308
+3376 raw.txt
+295
+1 raw.txt
+294
+1 raw.txt
