@@ -5,14 +5,18 @@ import matplotlib.pyplot as plt
 
 
 # read in data from all experiments
-def visualize(serverType, governor, experiment):
+def visualize(serverType, governor, experiment, timePerJob):
     allJobs = []
     allEvents = []
     path = os.getcwd() + "\\Results\\" + experiment
     for file in os.listdir(path):
         if serverType in file and governor in file:
             lines = open(path + "\\" + file, "r").readlines()
-            allJobs.append(eval(lines[19]))
+            if timePerJob:
+                allJobs.append([round(20.0 / val, 3)
+                               for val in eval(lines[19])])
+            else:
+                allJobs.append(eval(lines[19]))
             if experiment == "probesExp":
                 allEvents.append(eval(lines[21]))
             else:  # context switch experiment
@@ -21,7 +25,10 @@ def visualize(serverType, governor, experiment):
     # create a scatter plot of the data
     fig, ax1 = plt.subplots(figsize=(10, 10))
     # labe the y-axis as the number of jobs completed
-    ax1.set_ylabel("Jobs Completed")
+    if not timePerJob:
+        ax1.set_ylabel("Jobs Completed")
+    else:
+        ax1.set_ylabel("Time per Job (s)")
     # label the x-axis as the number of events or probes
     if experiment == "probesExp":
         ax1.set_xlabel("Events")
@@ -35,10 +42,19 @@ def visualize(serverType, governor, experiment):
         ax1.set_title(f"Probes to Jobs for {serverType} {governor}")
     fig.show()
     if governor:
-        plt.savefig(
-            f"{os.getcwd()}\\Figures\\{experiment}\\{serverType}_{governor}.png")
+        if timePerJob:
+            plt.savefig(
+                f"{os.getcwd()}\\Figures\\{experiment}TPJ\\{serverType}_{governor}.png")
+        else:
+            plt.savefig(
+                f"{os.getcwd()}\\Figures\\{experiment}\\{serverType}_{governor}.png")
     else:
-        plt.savefig(f"{os.getcwd()}\\Figures\\{experiment}\\{serverType}.png")
+        if timePerJob:
+            plt.savefig(
+                f"{os.getcwd()}\\Figures\\{experiment}TPJ\\{serverType}.png")
+        else:
+            plt.savefig(
+                f"{os.getcwd()}\\Figures\\{experiment}\\{serverType}.png")
     plt.close()
 
 
@@ -47,11 +63,14 @@ servers = [("aws", ""), ("cloudlab", ""), ("home", "per"),
 serversNoGov = [("aws", ""), ("cloudlab", ""), ("home", ""), ("school", "")]
 allServers = [("aws", ""), ("cloudlabA", ""), ("cloudlabB", "per"), ("cloudlabB",
                                                                      "ps"), ("home", "per"), ("home", "ps"), ("school", "per"), ("school", "ps")]
-experimentType = ["probesExp", "csExp"][int(
-    input("probesExp (0) or csExp(1): "))]
+experimentType = ["probesExp", "csExp", "csExpTPJ"][int(
+    input("probesExp (0) or csExp(1) or csExpTPJ (2): "))]
 if experimentType == "csExp":
     for server, governor in servers:
-        visualize(server, governor, experimentType)
-else:
+        visualize(server, governor, experimentType, False)
+elif experimentType == "probesExp":
     for server, governor in allServers:
-        visualize(server, governor, experimentType)
+        visualize(server, governor, experimentType, False)
+else:  # context switch experiment with time per job
+    for server, governor in servers:
+        visualize(server, governor, "csExp", True)
