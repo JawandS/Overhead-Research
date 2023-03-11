@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 # read in data from all experiments
-def visualize(serverType, governor="", experiment="probesExp"):
+def visualize(serverType, governor, experiment):
     allJobs = []
     allEvents = []
     path = os.getcwd() + "\\Results\\" + experiment
@@ -20,6 +20,13 @@ def visualize(serverType, governor="", experiment="probesExp"):
 
     # create a scatter plot of the data
     fig, ax1 = plt.subplots(figsize=(10, 10))
+    # labe the y-axis as the number of jobs completed
+    ax1.set_ylabel("Jobs Completed")
+    # label the x-axis as the number of events or probes
+    if experiment == "probesExp":
+        ax1.set_xlabel("Events")
+    else:
+        ax1.set_xlabel("Number of Context Switch Probes")
     for idx in range(len(allEvents)):
         plt.scatter(allEvents[idx], allJobs[idx], label=f"Run {idx + 1}")
     if experiment == "probesExp":
@@ -27,8 +34,12 @@ def visualize(serverType, governor="", experiment="probesExp"):
     else:
         ax1.set_title(f"Probes to Jobs for {serverType} {governor}")
     fig.show()
-    plt.show()
-    # fig.savefig(f"Figures/{idVal}_eventsToJobs.png")
+    if governor:
+        plt.savefig(
+            f"{os.getcwd()}\\Figures\\{experiment}\\{serverType}_{governor}.png")
+    else:
+        plt.savefig(f"{os.getcwd()}\\Figures\\{experiment}\\{serverType}.png")
+    plt.close()
 
 
 servers = [("aws", ""), ("cloudlab", ""), ("home", "per"),
@@ -36,7 +47,8 @@ servers = [("aws", ""), ("cloudlab", ""), ("home", "per"),
 serversNoGov = [("aws", ""), ("cloudlab", ""), ("home", ""), ("school", "")]
 allServers = [("aws", ""), ("cloudlabA", ""), ("cloudlabB", "per"), ("cloudlabB",
                                                                      "ps"), ("home", "per"), ("home", "ps"), ("school", "per"), ("school", "ps")]
-experimentType = ["probesExp", "csExp"][int(input("probesExp (0) or csExp(1): "))]
+experimentType = ["probesExp", "csExp"][int(
+    input("probesExp (0) or csExp(1): "))]
 if experimentType == "csExp":
     for server, governor in servers:
         visualize(server, governor, experimentType)
