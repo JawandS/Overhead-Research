@@ -1,0 +1,220 @@
+89
+0 raw.txt
+56
+889496 raw.txt
+51
+1542146 raw.txt
+48
+1997782 raw.txt
+35
+2731863 raw.txt
+35
+3043216 raw.txt
+31
+3390743 raw.txt
+28
+3620394 raw.txt
+26
+3972097 raw.txt
+24
+4283621 raw.txt
+22
+4321017 raw.txt
+89
+0 raw.txt
+55
+922909 raw.txt
+48
+1517241 raw.txt
+43
+2096683 raw.txt
+41
+2636972 raw.txt
+36
+3155396 raw.txt
+35
+3517655 raw.txt
+30
+3725522 raw.txt
+28
+3968358 raw.txt
+25
+4277468 raw.txt
+23
+4357396 raw.txt
+91
+0 raw.txt
+58
+941615 raw.txt
+49
+1487848 raw.txt
+44
+2069093 raw.txt
+39
+2675700 raw.txt
+35
+3145191 raw.txt
+33
+3501921 raw.txt
+30
+3627001 raw.txt
+27
+4004349 raw.txt
+27
+4371179 raw.txt
+16
+2985386 raw.txt
+91
+0 raw.txt
+58
+919857 raw.txt
+47
+1462848 raw.txt
+8
+630879 raw.txt
+4
+334300 raw.txt
+4
+461223 raw.txt
+4
+465132 raw.txt
+4
+609618 raw.txt
+4
+596923 raw.txt
+3
+431347 raw.txt
+4
+562354 raw.txt
+6
+0 raw.txt
+12
+213934 raw.txt
+50
+1484817 raw.txt
+34
+1799846 raw.txt
+3
+407252 raw.txt
+4
+573054 raw.txt
+4
+569685 raw.txt
+4
+552337 raw.txt
+4
+666614 raw.txt
+3
+429154 raw.txt
+4
+768203 raw.txt
+6
+0 raw.txt
+5
+90069 raw.txt
+5
+263429 raw.txt
+4
+289833 raw.txt
+37
+2647313 raw.txt
+30
+2797358 raw.txt
+4
+556488 raw.txt
+4
+527794 raw.txt
+4
+605012 raw.txt
+4
+529229 raw.txt
+4
+624605 raw.txt
+5
+0 raw.txt
+4
+65472 raw.txt
+5
+235876 raw.txt
+4
+346578 raw.txt
+4
+455833 raw.txt
+4
+569542 raw.txt
+32
+3331429 raw.txt
+27
+3468392 raw.txt
+5
+689421 raw.txt
+4
+633891 raw.txt
+4
+545472 raw.txt
+7
+0 raw.txt
+5
+95382 raw.txt
+4
+179727 raw.txt
+5
+388541 raw.txt
+5
+471538 raw.txt
+4
+523408 raw.txt
+4
+484485 raw.txt
+5
+691520 raw.txt
+26
+3876033 raw.txt
+20
+3698789 raw.txt
+4
+601698 raw.txt
+6
+0 raw.txt
+6
+114589 raw.txt
+5
+220700 raw.txt
+4
+302281 raw.txt
+5
+487504 raw.txt
+4
+570754 raw.txt
+4
+518896 raw.txt
+4
+526107 raw.txt
+4
+579910 raw.txt
+12
+2109427 raw.txt
+23
+4354040 raw.txt
+26
+0 raw.txt
+5
+96126 raw.txt
+5
+223002 raw.txt
+4
+301624 raw.txt
+4
+351150 raw.txt
+4
+537053 raw.txt
+4
+557026 raw.txt
+4
+550266 raw.txt
+4
+552841 raw.txt
+3
+389732 raw.txt
+4
+642976 raw.txt

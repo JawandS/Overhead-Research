@@ -1,0 +1,220 @@
+86
+0 raw.txt
+68
+1128654 raw.txt
+67
+2711577 raw.txt
+64
+4495050 raw.txt
+64
+6018942 raw.txt
+61
+6773829 raw.txt
+62
+7378281 raw.txt
+59
+7183509 raw.txt
+59
+7664446 raw.txt
+60
+8027256 raw.txt
+59
+7938783 raw.txt
+84
+0 raw.txt
+64
+1081204 raw.txt
+52
+2239174 raw.txt
+55
+4011410 raw.txt
+63
+6051522 raw.txt
+61
+6842851 raw.txt
+61
+7244729 raw.txt
+61
+7659692 raw.txt
+60
+7673100 raw.txt
+61
+8142975 raw.txt
+58
+7974176 raw.txt
+87
+0 raw.txt
+69
+1119978 raw.txt
+67
+2708675 raw.txt
+63
+4402015 raw.txt
+58
+5537402 raw.txt
+62
+7071787 raw.txt
+58
+6760259 raw.txt
+60
+7468474 raw.txt
+58
+7643709 raw.txt
+60
+7895821 raw.txt
+56
+7646910 raw.txt
+85
+0 raw.txt
+69
+1156521 raw.txt
+66
+2771752 raw.txt
+65
+4573823 raw.txt
+63
+6148663 raw.txt
+64
+7139371 raw.txt
+61
+7334841 raw.txt
+61
+7599760 raw.txt
+63
+8139444 raw.txt
+60
+8113807 raw.txt
+62
+8346597 raw.txt
+85
+0 raw.txt
+69
+1174513 raw.txt
+67
+2819995 raw.txt
+64
+4451859 raw.txt
+57
+5619450 raw.txt
+8
+1467128 raw.txt
+6
+1107487 raw.txt
+6
+1010693 raw.txt
+6
+707591 raw.txt
+56
+7316153 raw.txt
+62
+8549263 raw.txt
+29
+0 raw.txt
+9
+223668 raw.txt
+9
+594560 raw.txt
+7
+742027 raw.txt
+8
+1054077 raw.txt
+6
+1028331 raw.txt
+5
+945346 raw.txt
+6
+1011094 raw.txt
+6
+952957 raw.txt
+6
+558610 raw.txt
+7
+468679 raw.txt
+55
+0 raw.txt
+67
+1088650 raw.txt
+31
+1384638 raw.txt
+8
+865795 raw.txt
+7
+1022920 raw.txt
+7
+1136870 raw.txt
+6
+1170787 raw.txt
+6
+1059847 raw.txt
+7
+877171 raw.txt
+7
+587413 raw.txt
+7
+413460 raw.txt
+21
+0 raw.txt
+9
+241684 raw.txt
+12
+642681 raw.txt
+65
+4517466 raw.txt
+40
+4033178 raw.txt
+6
+1125924 raw.txt
+6
+1169803 raw.txt
+6
+1049207 raw.txt
+6
+798082 raw.txt
+7
+617048 raw.txt
+7
+466953 raw.txt
+22
+0 raw.txt
+11
+243082 raw.txt
+9
+568673 raw.txt
+7
+715203 raw.txt
+6
+898654 raw.txt
+57
+6235344 raw.txt
+50
+6079218 raw.txt
+6
+966934 raw.txt
+6
+769467 raw.txt
+7
+699031 raw.txt
+7
+492927 raw.txt
+23
+0 raw.txt
+10
+243071 raw.txt
+9
+547174 raw.txt
+8
+804679 raw.txt
+7
+1115056 raw.txt
+6
+1051271 raw.txt
+6
+1197145 raw.txt
+31
+3888749 raw.txt
+60
+8029899 raw.txt
+18
+1936390 raw.txt
+7
+408641 raw.txt
