@@ -68,7 +68,7 @@ def visualize(serverType, governor, experiment, timePerJob):
 servers = [("aws_", ""), ("aws2", ""), ("aws8", ""), ("cloudlab", ""), ("home", "per"), ("home", "ps"), ("school", "per"), ("school", "ps")]
 serversNoGov = [("aws", ""), ("cloudlab", ""), ("home", ""), ("school", "")]
 allServers = [("aws", ""), ("cloudlabA", ""), ("cloudlabB", "per"), ("cloudlabB", "ps"), ("home", "per"), ("home", "ps"), ("school", "per"), ("school", "ps")]
-newServers = [("aws", "")]
+newServers = [("schoolC0", "")]
 experimentType = ["probesExp", "csExp", "csExpTPJ"][int(input("probesExp (0) or csExp(1) or csExpTPJ (2): "))]
 if experimentType == "csExp":
     for server, governor in servers:
