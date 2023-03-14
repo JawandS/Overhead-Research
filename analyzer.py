@@ -30,7 +30,7 @@ def visualize(serverType, governor, experiment, timePerJob):
 
     # create a scatter plot of the data
     fig, ax1 = plt.subplots(figsize=(10, 10))
-    # labe the y-axis as the number of jobs completed
+    # label the y-axis as the number of jobs completed
     if not timePerJob:
         ax1.set_ylabel("Jobs Completed")
     else:
@@ -51,6 +51,8 @@ def visualize(serverType, governor, experiment, timePerJob):
         ax1.set_title(f"Events to Jobs for {serverType} {governor}")
     else:
         ax1.set_title(f"Probes to Jobs for {serverType} {governor}")
+    # set the y min as 0
+    ax1.set_ylim(bottom=0)
     # fig.show()
     if governor:
         if timePerJob:
@@ -65,7 +67,8 @@ def visualize(serverType, governor, experiment, timePerJob):
     plt.close()
 
 
-servers = [("aws_", ""), ("aws2", ""), ("aws8", ""), ("cloudlab", ""), ("home", "per"), ("home", "ps"), ("school", "per"), ("school", "ps")]
+servers = [("aws_", ""), ("aws2", ""), ("aws8", ""), ("cloudlab", ""), ("home", "per"), ("home", "ps"), ("school_", "per"), ("school_", "ps"), ("schoolC0", "")]
+# servers = [("aws", "")]  # for testing
 serversNoGov = [("aws", ""), ("cloudlab", ""), ("home", ""), ("school", "")]
 allServers = [("aws", ""), ("cloudlabA", ""), ("cloudlabB", "per"), ("cloudlabB", "ps"), ("home", "per"), ("home", "ps"), ("school", "per"), ("school", "ps")]
 newServers = [("schoolC0", "")]
