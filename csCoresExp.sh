@@ -1,4 +1,5 @@
 # cores = range i.e. 0-1
+$cores = 0,1
 sudo taskset -c $cores ./csExp.sh 'school"$cores"_1_per' performance
 sleep(15)
 sudo taskset -c $cores ./csExp.sh 'school"$cores"_2_ps' powersave
