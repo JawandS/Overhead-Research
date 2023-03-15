@@ -66,19 +66,30 @@ def visualize(serverType, governor, experiment, timePerJob):
             plt.savefig(f"{os.getcwd()}\\Figures\\{experiment}\\{serverType}.png")
     plt.close()
 
+def runManual():
+    servers = [("aws_", ""), ("aws2", ""), ("aws8", ""), ("cloudlab", ""), ("home", "per"), ("home", "ps"), ("school_", "per"), ("school_", "ps"), ("schoolC0", "")]
+    # servers = [("aws", "")]  # for testing
+    serversNoGov = [("aws", ""), ("cloudlab", ""), ("home", ""), ("school", "")]
+    allServers = [("aws", ""), ("cloudlabA", ""), ("cloudlabB", "per"), ("cloudlabB", "ps"), ("home", "per"), ("home", "ps"), ("school", "per"), ("school", "ps")]
+    newServers = [("schoolC0", "")]
+    experimentType = ["probesExp", "csExp", "csExpTPJ"][int(input("probesExp (0) or csExp(1) or csExpTPJ (2): "))]
+    if experimentType == "csExp":
+        for server, governor in servers:
+            visualize(server, governor, experimentType, False)
+    elif experimentType == "probesExp":
+        for server, governor in allServers:
+            visualize(server, governor, experimentType, False)
+    else:  # context switch experiment with time per job
+        for server, governor in servers:
+            visualize(server, governor, "csExp", True)
 
-servers = [("aws_", ""), ("aws2", ""), ("aws8", ""), ("cloudlab", ""), ("home", "per"), ("home", "ps"), ("school_", "per"), ("school_", "ps"), ("schoolC0", "")]
-# servers = [("aws", "")]  # for testing
-serversNoGov = [("aws", ""), ("cloudlab", ""), ("home", ""), ("school", "")]
-allServers = [("aws", ""), ("cloudlabA", ""), ("cloudlabB", "per"), ("cloudlabB", "ps"), ("home", "per"), ("home", "ps"), ("school", "per"), ("school", "ps")]
-newServers = [("schoolC0", "")]
-experimentType = ["probesExp", "csExp", "csExpTPJ"][int(input("probesExp (0) or csExp(1) or csExpTPJ (2): "))]
-if experimentType == "csExp":
-    for server, governor in servers:
-        visualize(server, governor, experimentType, False)
-elif experimentType == "probesExp":
-    for server, governor in allServers:
-        visualize(server, governor, experimentType, False)
-else:  # context switch experiment with time per job
-    for server, governor in servers:
-        visualize(server, governor, "csExp", True)
+def runAutomatic():
+    import sys
+    args = sys.argv
+    machine = args[1]
+    experimentType = args[2]
+    visualize(machine, "", experimentType, False)
+
+if __name__ == "__main__":
+    # runManual()
+    runAutomatic()
