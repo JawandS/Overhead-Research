@@ -53,7 +53,7 @@ experiment() {
   while [ $SECONDS -lt $end ]; do # continue for 20 seconds
     $startTs=$SECONDS
     python3 job.py $counter $threads $depth >>/dev/null && counter=$((counter + 1)) # run job and increment counter
-    $endTs=$SECONDS-$startTs
+    $endTs=$((SECONDS-startTs))
     echo "$endTs" >>Logs/csExp/tsLog_"$1".txt # add time to log
   done
   # end tracing
