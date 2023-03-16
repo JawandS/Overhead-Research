@@ -63,7 +63,7 @@ experiment() {
   echo "Completed: $counter for $2 with $outputSize events" # output to console
 }
 # run experiment
-echo 'Starting experiment "$1"'
+echo "Starting experiment {$1}"
 iterationCounter=0S
 for _ in {1..10}; do # number of iterations
   # warmup phase

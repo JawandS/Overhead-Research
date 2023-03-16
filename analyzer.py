@@ -18,11 +18,11 @@ def csReg(serverType, governor):
     x = np.array(allProbes)
     y = np.array(allJobs)
     # perform regression
-    m, b = np.polyfit(np.log(x), y, 1)
+    m, b = np.polyfit(x, np.log(y), 1)
     # print the results
     print(f"{serverType} {governor}: {m}x + {b}")
     # print the error
-    print(f"Error: {np.sum(np.abs(y - (m * np.log(x) + b)))}")
+    print(f"Error: {np.sum(np.abs(np.log(y) - (m * x + b)))}")
     
 
 # read in data from all experiments
@@ -154,6 +154,6 @@ def runAutomatic():
 
 if __name__ == "__main__":
     # runManual()
-    # runAutomatic()
+    runAutomatic()
     # csReg("schoolC0", "")
-    genPlot("schoolC0", "csExp", "events", "jobs")
+    # genPlot("schoolC0", "csExp", "events", "jobs")
