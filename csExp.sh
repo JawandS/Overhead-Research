@@ -50,9 +50,11 @@ experiment() {
   end=$((SECONDS + increment))
   counter=0                       # number of fib jobs completed
   truncate -s 0 raw.txt           # clear file
-  while [ $SECONDS -lt $end ]; do # continue for 10 seconds
-    python3 job.py $counter $threads $depth >>/dev/null &&
-      counter=$((counter + 1)) # run job and increment counter
+  while [ $SECONDS -lt $end ]; do # continue for 20 seconds
+    $startTs=$SECONDS
+    python3 job.py $counter $threads $depth >>/dev/null && counter=$((counter + 1)) # run job and increment counter
+    $endTs=$SECONDS-$startTs
+    echo "$endTs" >>Logs/csExp/tsLog_"$1".txt # add time to log
   done
   # end tracing
   killall -q bpftrace
