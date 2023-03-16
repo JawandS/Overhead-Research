@@ -1,0 +1,220 @@
+94
+0 raw.txt
+20
+516664 raw.txt
+22
+730327 raw.txt
+18
+997569 raw.txt
+14
+1151649 raw.txt
+6
+751642 raw.txt
+1
+202741 raw.txt
+1
+272111 raw.txt
+1
+180927 raw.txt
+1
+240228 raw.txt
+1
+191453 raw.txt
+8
+0 raw.txt
+10
+308792 raw.txt
+1
+77166 raw.txt
+1
+107147 raw.txt
+1
+163181 raw.txt
+1
+178693 raw.txt
+1
+335016 raw.txt
+1
+142058 raw.txt
+1
+222267 raw.txt
+1
+136608 raw.txt
+1
+195250 raw.txt
+8
+0 raw.txt
+2
+77227 raw.txt
+2
+163299 raw.txt
+1
+108735 raw.txt
+1
+186137 raw.txt
+1
+276062 raw.txt
+1
+163695 raw.txt
+1
+235424 raw.txt
+2
+365422 raw.txt
+4
+745606 raw.txt
+1
+307296 raw.txt
+8
+0 raw.txt
+2
+57743 raw.txt
+2
+114543 raw.txt
+2
+255383 raw.txt
+1
+158039 raw.txt
+1
+195064 raw.txt
+1
+131018 raw.txt
+1
+209730 raw.txt
+1
+333563 raw.txt
+1
+405975 raw.txt
+1
+374201 raw.txt
+7
+0 raw.txt
+2
+86533 raw.txt
+1
+76353 raw.txt
+1
+100537 raw.txt
+2
+259611 raw.txt
+5
+645700 raw.txt
+1
+234389 raw.txt
+1
+187756 raw.txt
+1
+284347 raw.txt
+1
+167488 raw.txt
+1
+314778 raw.txt
+8
+0 raw.txt
+2
+49619 raw.txt
+1
+70901 raw.txt
+1
+67754 raw.txt
+1
+142493 raw.txt
+1
+168774 raw.txt
+1
+144599 raw.txt
+1
+222462 raw.txt
+1
+244385 raw.txt
+1
+272967 raw.txt
+1
+160428 raw.txt
+8
+0 raw.txt
+2
+60597 raw.txt
+2
+142475 raw.txt
+8
+621796 raw.txt
+2
+282301 raw.txt
+1
+179439 raw.txt
+1
+349133 raw.txt
+1
+223459 raw.txt
+1
+222411 raw.txt
+1
+225396 raw.txt
+1
+371375 raw.txt
+8
+0 raw.txt
+2
+81560 raw.txt
+2
+101714 raw.txt
+2
+229681 raw.txt
+1
+187799 raw.txt
+1
+136379 raw.txt
+1
+191091 raw.txt
+1
+233033 raw.txt
+1
+237720 raw.txt
+1
+197263 raw.txt
+4
+905026 raw.txt
+8
+0 raw.txt
+2
+98784 raw.txt
+2
+119342 raw.txt
+1
+113782 raw.txt
+1
+150023 raw.txt
+1
+133349 raw.txt
+1
+194847 raw.txt
+1
+173919 raw.txt
+1
+242729 raw.txt
+1
+303782 raw.txt
+1
+143066 raw.txt
+7
+0 raw.txt
+2
+58816 raw.txt
+1
+77355 raw.txt
+1
+98824 raw.txt
+2
+213034 raw.txt
+1
+221681 raw.txt
+1
+223708 raw.txt
+3
+511964 raw.txt
+2
+513880 raw.txt
+1
+222133 raw.txt
+1
+250307 raw.txt
