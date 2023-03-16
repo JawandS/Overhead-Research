@@ -64,7 +64,7 @@ experiment() {
 }
 # run experiment
 echo "Starting experiment ${1}"
-iterationCounter=0S
+iterationCounter=0
 for _ in {1..10}; do # number of iterations
   # warmup phase
   end=$((SECONDS + 5))
