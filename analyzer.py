@@ -87,6 +87,45 @@ def visualize(serverType, governor, experiment, timePerJob):
             plt.savefig(f"{os.getcwd()}\\Figures\\{experiment}\\{serverType}.png")
     plt.close()
 
+
+# general plot using x/y vars
+def genPlot(computerName, experiment, xVar, yVar):
+    x = []
+    y = []
+    path = os.getcwd() + "\\Results\\" + experiment
+    # get data 
+    for file in os.listdir(path):
+        if computerName in file:
+            lines = open(path + "\\" + file, "r").readlines()
+            # independent var
+            if xVar == "probes":
+                x = x + [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] * 10
+            elif xVar == "cores":
+                if "aws_" in file:
+                    x = x + [1] * 110
+                elif "aws2" in file:
+                    x = x + [2] * 110
+                elif "aws8" in file:
+                    x = x + [8] * 110
+            elif xVar == "events":
+                x = x + eval(lines[21])
+            # dependent var
+            if yVar == "jobs":
+                y = y + eval(lines[19])
+            elif yVar == "events":
+                y = y + eval(lines[21])
+    # plot the data
+    fig, ax1 = plt.subplots(figsize=(10, 10))
+    # labels
+    ax1.set_xlabel(xVar)
+    ax1.set_ylabel(yVar)
+    ax1.set_title(f"{xVar} to {yVar} for {computerName}")
+    # plot the points
+    plt.scatter(x, y)
+    # save the figure
+    plt.savefig(f"{os.getcwd()}\\Figures\\{experiment}\\{computerName}_{xVar}To{yVar}.png")
+
+
 def runManual():
     servers = [("aws_", ""), ("aws2", ""), ("aws8", ""), ("cloudlab", ""), ("home", "per"), ("home", "ps"), ("school_", "per"), ("school_", "ps"), ("schoolC0", "")]
     # servers = [("aws", "")]  # for testing
@@ -104,6 +143,7 @@ def runManual():
         for server, governor in servers:
             visualize(server, governor, "csExp", True)
 
+
 def runAutomatic():
     import sys
     args = sys.argv
@@ -111,7 +151,9 @@ def runAutomatic():
     experimentType = args[2]
     visualize(machine, "", experimentType, False)
 
+
 if __name__ == "__main__":
     # runManual()
-    runAutomatic()
+    # runAutomatic()
     # csReg("schoolC0", "")
+    genPlot("schoolC0", "csExp", "events", "jobs")
