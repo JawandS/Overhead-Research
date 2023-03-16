@@ -2,7 +2,28 @@
 import os
 
 import matplotlib.pyplot as plt
+import numpy as np
 
+# perform a logarithmic regression on the data
+def csReg(serverType, governor):
+    allJobs = []
+    allProbes = []
+    path = os.getcwd() + "\\Results\\csExp"
+    for file in os.listdir(path):
+        if serverType in file and governor in file:
+            lines = open(path + "\\" + file, "r").readlines()
+            allProbes = allProbes + [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] * 10 # add the probes to array
+            allJobs = allJobs + eval(lines[19]) # add the jobs to array
+    # convert arrays to numpy arrays
+    x = np.array(allProbes)
+    y = np.array(allJobs)
+    # perform regression
+    m, b = np.polyfit(np.log(x), y, 1)
+    # print the results
+    print(f"{serverType} {governor}: {m}x + {b}")
+    # print the error
+    print(f"Error: {np.sum(np.abs(y - (m * np.log(x) + b)))}")
+    
 
 # read in data from all experiments
 def visualize(serverType, governor, experiment, timePerJob):
@@ -93,3 +114,4 @@ def runAutomatic():
 if __name__ == "__main__":
     # runManual()
     runAutomatic()
+    # csReg("schoolC0", "")
