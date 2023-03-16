@@ -3,6 +3,7 @@ machine="school"
 
 # context switch experiment with variable numeber of cores
 cores=0-1
+echo "${machine}${cores}_1_per"
 sudo taskset -c $cores ./csExp.sh "${machine}${cores}_1_per" performance
 sleep 3
 sudo taskset -c $cores ./csExp.sh "${machine}${cores}_2_ps" powersave
