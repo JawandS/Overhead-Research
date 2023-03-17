@@ -1,0 +1,160 @@
+351
+0 raw.txt
+342
+31669537 raw.txt
+346
+1 raw.txt
+338
+12764861 raw.txt
+346
+700309 raw.txt
+351
+3475 raw.txt
+351
+1 raw.txt
+349
+1 raw.txt
+351
+0 raw.txt
+335
+31114003 raw.txt
+346
+1 raw.txt
+340
+12808977 raw.txt
+345
+697438 raw.txt
+351
+3483 raw.txt
+351
+1 raw.txt
+349
+1 raw.txt
+351
+0 raw.txt
+337
+31294205 raw.txt
+347
+1 raw.txt
+341
+12690667 raw.txt
+346
+699853 raw.txt
+351
+3607 raw.txt
+351
+1 raw.txt
+350
+1 raw.txt
+351
+0 raw.txt
+333
+31071600 raw.txt
+347
+9 raw.txt
+342
+12829417 raw.txt
+345
+698013 raw.txt
+351
+3413 raw.txt
+350
+1 raw.txt
+349
+1 raw.txt
+351
+0 raw.txt
+334
+31068231 raw.txt
+346
+10 raw.txt
+342
+12746425 raw.txt
+345
+698267 raw.txt
+351
+3496 raw.txt
+351
+1 raw.txt
+349
+1 raw.txt
+350
+0 raw.txt
+330
+30930814 raw.txt
+347
+2 raw.txt
+341
+12839034 raw.txt
+345
+696988 raw.txt
+351
+3478 raw.txt
+351
+1 raw.txt
+349
+1 raw.txt
+351
+0 raw.txt
+337
+31255509 raw.txt
+346
+1 raw.txt
+342
+12728767 raw.txt
+346
+698880 raw.txt
+351
+3464 raw.txt
+351
+1 raw.txt
+350
+1 raw.txt
+351
+0 raw.txt
+334
+31051505 raw.txt
+347
+1 raw.txt
+340
+12733876 raw.txt
+345
+697681 raw.txt
+351
+3589 raw.txt
+351
+1 raw.txt
+350
+1 raw.txt
+351
+0 raw.txt
+331
+30931633 raw.txt
+346
+2 raw.txt
+336
+12769757 raw.txt
+346
+699727 raw.txt
+351
+3450 raw.txt
+351
+1 raw.txt
+350
+1 raw.txt
+351
+0 raw.txt
+335
+31186238 raw.txt
+346
+1 raw.txt
+344
+12778866 raw.txt
+346
+698837 raw.txt
+350
+3590 raw.txt
+351
+1 raw.txt
+349
+1 raw.txt
