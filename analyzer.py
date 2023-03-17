@@ -150,6 +150,8 @@ def runAutomatic():
     machine = args[1]
     experimentType = args[2]
     visualize(machine, "", experimentType, False)
+    # for machine in ["school0-1", "school0-3", "school0-7"]:
+    #     experimentType = "csExp"
 
 
 if __name__ == "__main__":
