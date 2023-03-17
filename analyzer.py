@@ -2,6 +2,7 @@
 import os
 
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 import numpy as np
 
 # perform a logarithmic regression on the data
@@ -32,7 +33,7 @@ def visualize(serverType, governor, experiment, timePerJob):
     colors = [] # number of cores for AWS instance
     path = os.getcwd() + "\\Results\\" + experiment
     for file in os.listdir(path):
-        if serverType in file and governor in file:
+        if serverType in file and governor in file and "school_" not in file:
             lines = open(path + "\\" + file, "r").readlines()
             if timePerJob:
                 allJobs.append([round(20.0 / val, 3) for val in eval(lines[19])])
@@ -42,11 +43,13 @@ def visualize(serverType, governor, experiment, timePerJob):
                 allEvents.append(eval(lines[21]))
             else:  # context switch experiment
                 allEvents.append([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] * 10)
-                # if "aws_" in file:
+                # if "C0" in file:
                 #     colors.append(("One Core", "red"))
-                # elif "aws2" in file:
+                # elif "0-1" in file:
                 #     colors.append(("Two Cores", "green"))
-                # elif "aws8" in file:
+                # elif "0-3" in file:
+                #     colors.append(("Four Cores", "purple"))
+                # elif "0-7" in file:
                 #     colors.append(("Eight Cores", "blue"))
 
     # create a scatter plot of the data
@@ -63,11 +66,15 @@ def visualize(serverType, governor, experiment, timePerJob):
         ax1.set_xlabel("Number of Context Switch Probes")
     for idx in range(len(allEvents)):
         if colors:
-            plt.scatter(allEvents[idx], allJobs[idx], label=colors[idx][0])
+            plt.scatter(allEvents[idx], allJobs[idx], c=colors[idx][1])
         else:
             plt.scatter(allEvents[idx], allJobs[idx], label=f"Run {idx + 1}")
     if colors:
-        plt.legend()
+        red_patch = mpatches.Patch(color='red', label='One Core')
+        green_patch = mpatches.Patch(color='green', label='Two Cores')
+        purple_patch = mpatches.Patch(color='purple', label='Four Cores')
+        blue_patch = mpatches.Patch(color='blue', label='Eight Cores')
+        plt.legend(handles=[red_patch, green_patch, purple_patch, blue_patch])
     if experiment == "probesExp":
         ax1.set_title(f"Events to Jobs for {serverType} {governor}")
     else:
