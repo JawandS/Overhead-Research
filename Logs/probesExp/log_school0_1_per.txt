@@ -1,0 +1,160 @@
+368
+0 raw.txt
+162
+10806997 raw.txt
+370
+10 raw.txt
+144
+8379069 raw.txt
+354
+432408 raw.txt
+370
+3203 raw.txt
+370
+1 raw.txt
+371
+1 raw.txt
+370
+0 raw.txt
+162
+10873869 raw.txt
+368
+16 raw.txt
+143
+8399443 raw.txt
+355
+427133 raw.txt
+369
+3195 raw.txt
+371
+1 raw.txt
+370
+1 raw.txt
+369
+0 raw.txt
+162
+10923877 raw.txt
+369
+1 raw.txt
+143
+8392839 raw.txt
+355
+432564 raw.txt
+370
+3178 raw.txt
+370
+1 raw.txt
+369
+1 raw.txt
+370
+0 raw.txt
+162
+11011059 raw.txt
+368
+1 raw.txt
+144
+8403467 raw.txt
+355
+431587 raw.txt
+369
+3302 raw.txt
+371
+1 raw.txt
+370
+1 raw.txt
+370
+0 raw.txt
+162
+10966753 raw.txt
+368
+3 raw.txt
+144
+8391504 raw.txt
+354
+433452 raw.txt
+370
+3198 raw.txt
+370
+1 raw.txt
+371
+1 raw.txt
+369
+0 raw.txt
+162
+11014657 raw.txt
+367
+1 raw.txt
+143
+8425311 raw.txt
+355
+432130 raw.txt
+369
+3214 raw.txt
+371
+1 raw.txt
+371
+1 raw.txt
+369
+0 raw.txt
+162
+10961299 raw.txt
+369
+1 raw.txt
+143
+8312368 raw.txt
+356
+432801 raw.txt
+369
+3275 raw.txt
+371
+1 raw.txt
+370
+1 raw.txt
+369
+0 raw.txt
+162
+10960853 raw.txt
+368
+8 raw.txt
+143
+8323355 raw.txt
+356
+436261 raw.txt
+369
+3210 raw.txt
+371
+1 raw.txt
+370
+1 raw.txt
+370
+0 raw.txt
+162
+10888479 raw.txt
+368
+8 raw.txt
+143
+8377829 raw.txt
+356
+435201 raw.txt
+369
+3163 raw.txt
+371
+1 raw.txt
+370
+1 raw.txt
+370
+0 raw.txt
+162
+10943097 raw.txt
+368
+1 raw.txt
+144
+8331231 raw.txt
+355
+433879 raw.txt
+369
+3298 raw.txt
+371
+1 raw.txt
+370
+1 raw.txt
