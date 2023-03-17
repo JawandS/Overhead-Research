@@ -1,0 +1,160 @@
+348
+0 raw.txt
+309
+23123869 raw.txt
+345
+1 raw.txt
+273
+11878064 raw.txt
+341
+671209 raw.txt
+349
+3440 raw.txt
+348
+1 raw.txt
+347
+1 raw.txt
+349
+0 raw.txt
+305
+22803164 raw.txt
+345
+1 raw.txt
+262
+11969684 raw.txt
+341
+673151 raw.txt
+348
+3468 raw.txt
+349
+1 raw.txt
+346
+1 raw.txt
+349
+0 raw.txt
+310
+23142556 raw.txt
+344
+8 raw.txt
+267
+11987728 raw.txt
+340
+671314 raw.txt
+348
+3489 raw.txt
+349
+1 raw.txt
+347
+1 raw.txt
+349
+0 raw.txt
+305
+23019396 raw.txt
+344
+1 raw.txt
+271
+12064778 raw.txt
+339
+668070 raw.txt
+349
+3525 raw.txt
+348
+1 raw.txt
+347
+1 raw.txt
+348
+0 raw.txt
+309
+23125756 raw.txt
+344
+2 raw.txt
+275
+12069627 raw.txt
+341
+669224 raw.txt
+348
+3421 raw.txt
+348
+1 raw.txt
+348
+1 raw.txt
+348
+0 raw.txt
+309
+23130699 raw.txt
+345
+3 raw.txt
+268
+12027199 raw.txt
+341
+673074 raw.txt
+348
+3525 raw.txt
+348
+1 raw.txt
+348
+1 raw.txt
+348
+0 raw.txt
+307
+23031101 raw.txt
+345
+1 raw.txt
+271
+12045720 raw.txt
+340
+670271 raw.txt
+348
+3488 raw.txt
+348
+1 raw.txt
+348
+1 raw.txt
+348
+0 raw.txt
+312
+23172361 raw.txt
+345
+1 raw.txt
+269
+11985672 raw.txt
+341
+669669 raw.txt
+348
+3464 raw.txt
+349
+1 raw.txt
+347
+1 raw.txt
+348
+0 raw.txt
+311
+23130803 raw.txt
+345
+3 raw.txt
+270
+11953545 raw.txt
+341
+669736 raw.txt
+348
+3498 raw.txt
+348
+1 raw.txt
+348
+1 raw.txt
+348
+0 raw.txt
+311
+23136577 raw.txt
+345
+1 raw.txt
+263
+11948794 raw.txt
+340
+668316 raw.txt
+349
+3419 raw.txt
+348
+1 raw.txt
+347
+1 raw.txt
