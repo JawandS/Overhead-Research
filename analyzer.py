@@ -33,7 +33,7 @@ def visualize(serverType, governor, experiment, timePerJob):
     colors = [] # number of cores for AWS instance
     path = os.getcwd() + "\\Results\\" + experiment
     for file in os.listdir(path):
-        if serverType in file and governor in file and "school_" not in file:
+        if serverType in file and governor in file and "B" not in file:
             lines = open(path + "\\" + file, "r").readlines()
             if timePerJob:
                 allJobs.append([round(20.0 / val, 3) for val in eval(lines[19])])
@@ -51,6 +51,12 @@ def visualize(serverType, governor, experiment, timePerJob):
                 #     colors.append(("Four Cores", "purple"))
                 # elif "0-7" in file:
                 #     colors.append(("Eight Cores", "blue"))
+                if "1_" in file or "1B_" in file:
+                    colors.append(("One Core", "red"))
+                elif "2_" in file:
+                    colors.append(("Two Cores", "green"))
+                elif "8_" in file:
+                    colors.append(("Eight Cores", "blue"))
 
     # create a scatter plot of the data
     fig, ax1 = plt.subplots(figsize=(10, 10))
