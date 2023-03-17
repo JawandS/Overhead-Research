@@ -51,12 +51,12 @@ def visualize(serverType, governor, experiment, timePerJob):
                 #     colors.append(("Four Cores", "purple"))
                 # elif "0-7" in file:
                 #     colors.append(("Eight Cores", "blue"))
-                if "1_" in file or "1B_" in file:
-                    colors.append(("One Core", "red"))
-                elif "2_" in file:
-                    colors.append(("Two Cores", "green"))
-                elif "8_" in file:
-                    colors.append(("Eight Cores", "blue"))
+                # if "1_" in file or "1B_" in file:
+                #     colors.append(("One Core", "red"))
+                # elif "2_" in file:
+                #     colors.append(("Two Cores", "green"))
+                # elif "8_" in file:
+                #     colors.append(("Eight Cores", "blue"))
 
     # create a scatter plot of the data
     fig, ax1 = plt.subplots(figsize=(10, 10))
