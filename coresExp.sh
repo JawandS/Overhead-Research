@@ -13,7 +13,7 @@ sleep 3
 sudo taskset -c $cores ./csExp.sh "${machine}${cores}_4_ps" powersave
 sleep 3
 # visualize results
-sudo python3 analyze.py "${machine}${cores}" csExp
+sudo python3 analyzer.py "${machine}${cores}" csExp
 sleep 3
 
 cores=0-3
@@ -26,7 +26,7 @@ sleep 3
 sudo taskset -c $cores ./csExp.sh "${machine}${cores}_4_ps" powersave
 sleep 3
 # visualize results
-sudo python3 analyze.py "${machine}${cores}" csExp
+sudo python3 analyzer.py "${machine}${cores}" csExp
 sleep 3
 
 cores=0-7
@@ -39,7 +39,7 @@ sleep 3
 sudo taskset -c $cores ./csExp.sh "${machine}${cores}_4_ps" powersave
 sleep 3
 # visualize results
-sudo python3 analyze.py "${machine}${cores}" csExp
+sudo python3 analyzer.py "${machine}${cores}" csExp
 sleep 3
 
 # probes experiment with variable number of cores
@@ -53,7 +53,7 @@ sleep 3
 sudo taskset -c $cores ./probesExp.sh "${machine}${cores}_4_ps" powersave
 sleep 3
 # visualize results
-sudo python3 analyze.py "${machine}${cores}" probesExp
+sudo python3 analyzer.py "${machine}${cores}" probesExp
 sleep 3
 
 cores=0-1
@@ -66,7 +66,7 @@ sleep 3
 sudo taskset -c $cores ./probesExp.sh "${machine}${cores}_4_ps" powersave
 sleep 3
 # visualize results
-sudo python3 analyze.py "${machine}${cores}" probesExp
+sudo python3 analyzer.py "${machine}${cores}" probesExp
 sleep 3
 
 cores=0-3
@@ -79,7 +79,7 @@ sleep 3
 sudo taskset -c $cores ./probesExp.sh "${machine}${cores}_4_ps" powersave
 sleep 3
 # visualize results
-sudo python3 analyze.py "${machine}${cores}" probesExp
+sudo python3 analyzer.py "${machine}${cores}" probesExp
 sleep 3
 
 cores=0-7
@@ -92,5 +92,5 @@ sleep 3
 sudo taskset -c $cores ./probesExp.sh "${machine}${cores}_4_ps" powersave
 sleep 3
 # visualize results
-sudo python3 analyze.py "${machine}${cores}" probesExp
+sudo python3 analyzer.py "${machine}${cores}" probesExp
 sleep 3
