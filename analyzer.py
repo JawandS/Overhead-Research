@@ -154,6 +154,6 @@ def runAutomatic():
 
 if __name__ == "__main__":
     # runManual()
-    runAutomatic()
+    runAutomatic() # machine, experiment type
     # csReg("schoolC0", "")
     # genPlot("schoolC0", "csExp", "events", "jobs")
