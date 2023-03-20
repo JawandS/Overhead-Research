@@ -43,10 +43,10 @@ for _ in {1..5}; do # number of iterations
   done
   # experiment phase
   iterationCounter=$((iterationCounter + 1)) && printf "\t---------Run %s---------\n" "$iterationCounter"
-  sudo taskset -c 0 experiment "$1" X 200
-  sudo taskset -c 0 experiment "$1" X 100
-  sudo taskset -c 0 experiment "$1" X 10
-  sudo taskset -c 0 experiment "$1" X 1
+  experiment "$1" X 200
+  experiment "$1" X 100
+  experiment "$1" X 10
+  experiment "$1" X 1
 done
 python3 process.py "$1" $iterations $increment $threads $depth "$2" # run number, iterations, time, threads, depth, governor
 # git pull
