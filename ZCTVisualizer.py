@@ -42,10 +42,8 @@ def visualize():
     # label the axes
     ax.set_xlabel("Number of Threads")
     ax.set_ylabel("Number of Jobs Completed")
-    # show the plot
-    plt.show()
-    # save the plot
-    plt.savefig(f"{os.getcwd()}\\Figures\\csExp\\variableCoreTest.png")
+    # save the figure
+    plt.savefig(f"{os.getcwd()}\\Figures\\csExp\\coresThreadsTest.png")
 
 if __name__ == "__main__":
     visualize()
